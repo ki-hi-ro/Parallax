@@ -1,0 +1,27 @@
+@import "_breakpoint";
+  
+.wrap {
+    height: 300vh;
+    .parallax {
+        height: 109vh;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;    
+        &.bg-01 {
+            background-image: url(../img/cofee.jpg);
+            h1 {
+                font-size: 4rem;
+                letter-spacing: .5rem;
+                @include large {
+                    font-size: 5rem;
+                    letter-spacing: .5rem;
+                }
+            }
+          }
+      }
+    .content {
+        padding: 60px;
+        background-color: #fff;
+      }
+}
+

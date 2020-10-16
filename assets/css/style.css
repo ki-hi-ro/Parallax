@@ -1,0 +1,31 @@
+.wrap {
+  height: 300vh;
+}
+
+.wrap .parallax {
+  height: 109vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrap .parallax.bg-01 {
+  background-image: url(../img/cofee.jpg);
+}
+
+.wrap .parallax.bg-01 h1 {
+  font-size: 4rem;
+  letter-spacing: .5rem;
+}
+
+@media (min-width: 992px) {
+  .wrap .parallax.bg-01 h1 {
+    font-size: 5rem;
+    letter-spacing: .5rem;
+  }
+}
+
+.wrap .content {
+  padding: 60px;
+  background-color: #fff;
+}
